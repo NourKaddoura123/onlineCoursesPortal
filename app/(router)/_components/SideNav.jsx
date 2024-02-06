@@ -29,7 +29,7 @@ function SideNav({ toggleSidebar }) {
                 </button>
             )}
         <Image src='/logo.png' alt='logo' 
-        width={170} height={80}/>
+        width={200} height={70}/>
         <hr className='mt-7'></hr>
         {/* Menu List */}
         <div className='mt-5'>
