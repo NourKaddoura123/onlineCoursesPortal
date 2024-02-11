@@ -1,5 +1,6 @@
 import React from 'react'
 import WelcomeBanner from './_components/WelcomeBanner'
+import CourseList from './_components/CourseList'
 
 function Courses() {
   return (
@@ -8,6 +9,8 @@ function Courses() {
       <div className='col-span-2'>
         {/* Banner */}
         <WelcomeBanner />
+        {/* Course List Section */}
+        <CourseList/>
       </div>
       {/* Right Container */}
     </div>
